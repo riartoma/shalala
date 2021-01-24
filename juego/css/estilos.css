@@ -1,0 +1,110 @@
+* {
+    font-family: Times, 'Times New Roman', serif;
+}
+
+#reinicio {
+    position: absolute;
+    height: 60px;
+    font-size: 42px;
+    text-align: center;
+    bottom: 10px;
+    right: 10px;
+}
+
+#reinicio:hover {
+    background-color: darkgrey;
+    cursor: pointer;
+}
+
+body {
+    align-items: center;
+    background: #7daaf3e5;
+    display: flex;
+    font-size: 5vh;
+    height: 100vh;
+    margin: 0;
+}
+
+.informacionJugador {
+    position: absolute;
+    top: 6%;
+    left: 6%;
+}
+
+.informacionJugador p,
+.informacionJugador h4 {
+    margin: 5px;
+    text-transform: capitalize;
+}
+
+.tableroJuego {
+    height: 100vh;
+    width: 100vh;
+    overflow: hidden;
+    margin: 0 auto;
+    max-height: 60vh;
+    max-width: 60vh;
+    border-radius: 50%;
+}
+
+.color {
+    width: 50%;
+    height: 50%;
+    display: inline-block;
+}
+
+.llevarLado {
+    float: left;
+}
+
+.rojo {
+    background: red;
+}
+
+.rojo.marca {
+    background: rgb(255, 93, 93);
+}
+
+.azul {
+    background: blue;
+}
+
+.azul.marca {
+    background: rgb(87, 87, 255);
+}
+
+.amarillo {
+    background: yellow;
+}
+
+.amarillo.marca {
+    background: rgb(255, 255, 146);
+}
+
+.verde {
+    background: green;
+}
+
+.verde.marca {
+    background: rgb(91, 255, 91);
+}
+
+.botonInicio {
+    width: 400px;
+    height: 100px;
+    background: #ecf0f1;
+    color: #2c3e50;
+    font-size: 2.5rem;
+    position: absolute;
+    top: calc(50% - 50px);
+    left: calc(50% - 200px);
+}
+
+.botonInicio:hover {
+    cursor: pointer;
+    background-color: cadetblue;
+}
+
+.ocultar {
+    display: none;
+}
