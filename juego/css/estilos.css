@@ -11,6 +11,21 @@
     right: 10px;
 }
 
+#reinicio:hover,
+#reinicio2:hover {
+    background-color: darkgrey;
+    cursor: pointer;
+}
+
+#reinicio2 {
+    position: absolute;
+    height: 60px;
+    font-size: 42px;
+    text-align: center;
+    bottom: 80px;
+    right: 10px;
+}
+
 #reinicio:hover {
     background-color: darkgrey;
     cursor: pointer;
